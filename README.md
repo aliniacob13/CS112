@@ -1,7 +1,7 @@
 # CS112: Theory of Computation (LFA)
 **Student: Iacob Alin-Ovidiu**  
 **Lecturer: Dumitru Bogdan**  
-**Teaching Assistant: Horațiu Cheval**
+**Teaching Assistant: Horațiu Cheval**  
 **Faculty of Mathematics and Computer Science, University of Bucharest**  
 **Grupa: 144**  
 ## Overview 
