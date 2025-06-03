@@ -7,7 +7,7 @@
 4. [Formal Definition of a TM](#formal-definition-of-a-tm)  
 5. [How a TM Operates](#how-a-tm-operates)  
 6. [Designing a TM](#designing-a-tm)  
-7. [Example: Deciding the Language `{0ⁿ1ⁿ}`](#example-deciding-the-language-0ⁿ1ⁿ)  
+7. [Example: Deciding the Language {0ⁿ1ⁿ}](#example-deciding-the-language-0ⁿ1ⁿ)  
 8. [Additional Remarks and Tips](#additional-remarks-and-tips)
 9. [My python code](#my-python-code)
 ---
@@ -139,7 +139,7 @@ When building a TM to decide or recognize a language, consider the following gui
 
 ---
 
-## Example: Deciding the Language `{ 0ⁿ1ⁿ }`
+## Example: Deciding the Language { 0ⁿ1ⁿ }
 
 We will construct a **deterministic TM** `M` that decides L = { 0ⁿ1ⁿ  |  n ≥ 0 }  over Σ = `{0, 1}`. Informally, `M` will verify that there are exactly as many 1s as 0s and that all 0s precede all 1s.  
 1. Scan from left to right until you find an unmarked `0`.  
