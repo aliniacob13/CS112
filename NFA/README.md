@@ -1,8 +1,6 @@
 # Nondeterministic Finite Automaton (NFA)
 
-This document provides an informal yet academically minded overview of Nondeterministic Finite Automata (NFA). It is written from the perspective of a student who aims to explain the fundamental concepts, illustrate how NFAs operate, and offer guidance for designing simple NFAs. The style is intended to be clear and approachable while maintaining a formal tone.
 
----
 
 ## Table of Contents
 
