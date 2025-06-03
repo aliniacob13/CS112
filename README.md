@@ -14,7 +14,7 @@ This course describes a number of different models of computation which were pro
 **Warning** I chose to write the code in python. Due to the fact that I use MacOS and Visual Studio Code, it is possible that on different operating systems the files won't run, because i added some functions which help me read from a file.(**look at the FPATH in my files**)  
 | What I implemented  | Link to the files |
 | ------------- | ------------- |
-| Save a matrix, read one and parse a file  | Content Cell  |
+| Save a matrix, read one and parse a file  | [View code](./lab1/) |
 | Nondeterministic finite automaton (NFA)  | Content Cell  |
 | Deterministic finite automaton (DFA) | Content Cell |
 | Game using a DFA | Content Cell |
