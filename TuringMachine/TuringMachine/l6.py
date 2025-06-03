@@ -45,7 +45,7 @@ def load_automata(filename):
             continue
         if ln.strip().startswith("#"):
             continue
-        # eliminăm comentariile inline
+        # se elimina comentariile inline
         line = ln.split("#")[0].rstrip()
         current.append(line)
     if current:
@@ -72,7 +72,7 @@ def load_automata(filename):
 def build_transitions(rules):
     """
     Construiește dicționarul:
-      (stare_curentă, simbol_citit) -> (stare_nouă, simbol_scris, direcție)
+      (stare_curenta, simbol_citit) -> (stare_noua, simbol_scris, directie)
     """
     return { (st, sym): (new_st, write_sym, move)
              for st, sym, new_st, write_sym, move in rules }
