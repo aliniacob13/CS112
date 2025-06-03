@@ -1,0 +1,28 @@
+[States]
+entrance
+hallway
+kitchen
+library
+secret_room
+exit
+mega_exit
+#
+[Symbols]
+up
+down
+left
+right
+#
+[Rules]
+entrance up hallway
+hallway down entrance
+hallway left kitchen
+kitchen right hallway
+hallway right library
+library left hallway
+hallway up secret_room
+secret_room down hallway
+secret_room up mega_exit
+mega_exit down secret_room
+library down exit
+exit up library
