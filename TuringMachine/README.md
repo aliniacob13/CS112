@@ -9,7 +9,7 @@
 6. [Designing a TM](#designing-a-tm)  
 7. [Example: Deciding the Language `{0ⁿ1ⁿ}`](#example-deciding-the-language-0ⁿ1ⁿ)  
 8. [Additional Remarks and Tips](#additional-remarks-and-tips)
-9. [My python code](#my python code)
+9. [My python code](#my-python-code)
 ---
 
 ## Introduction to Turing Machines
