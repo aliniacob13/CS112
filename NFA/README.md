@@ -11,6 +11,7 @@
 5. [Designing an NFA](#designing-an-nfa)  
 6. [Example: Recognizing Strings That Contain “ab”](#example-recognizing-strings-that-contain-ab)  
 7. [Additional Remarks and Tips](#additional-remarks-and-tips)
+8. [My python code](#my-python-code)
 
 ---
 
@@ -246,6 +247,14 @@ We construct δ as a mapping from `(state, symbol/ε)` to a set of possible next
 5. **Limitation of Branches**  
    - While we think of NFAs as splitting into many “parallel branches,” an actual implementation typically does a breadth-first or depth-first search over the state graph.  
    - In theoretical terms, those branches do not require extra memory—nondeterminism is a conceptual tool, not a literal duplication of computations.
+
+---
+## My python code  
+My code checks if a string ends in "ab". Run the following:  
+```
+python nfa.py file.nfa
+```
+where file.nfa contains the rules, symbols and the alphabet
 
 ---
 
