@@ -4,7 +4,7 @@
 1. [DFAs, Informally](#dfas-informally)  
 2. [Designing DFAs](#designing-dfas)  
 3. [Example: Even Number of 1’s](#example-even-number-of-1s)  
-4. [Additional Design Considerations](#additional-design-considerations)  
+4. [My python implemention](#My-python-implementation)  
 
 ---
 
@@ -50,7 +50,7 @@ When constructing a DFA, it is important to remember that the only memory availa
 
 **Objective:** Construct a DFA that accepts all binary strings containing an even number of `1` symbols.
 
-1. **Relevant Information to Keep:**  
+1. **Relevant information to keep:**  
    - The parity (even or odd) of the number of `1’s encountered so far.
 
 2. **State Definitions:**  
@@ -78,3 +78,13 @@ When constructing a DFA, it is important to remember that the only memory availa
           ▲      │                   │   │
           │      └─0 (loop)          │   └─0 (loop)
           └──────────────────────────┘
+```
+---
+
+## My Python Implementation
+To run my python file, you need to run:  
+```
+python dfa.py file.dfa
+
+```
+where file.dfa contains the alphabet, rules, and states
