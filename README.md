@@ -11,6 +11,7 @@ A computer scientist should be able to distinguish between what can be computed 
 
 This course describes a number of different models of computation which were proposed and analysed over the past century. Many of these models were found to be equivalent, in the sense that they allow exactly the same computations to be carried out. Other models were shown to be less powerful, but simpler to implement, and so useful for some purposes.  
 ### Laboratory sessions  
+**Warning** I chose to write the code in python. Due to the fact that I use MacOS and Visual Studio Code, it is possible that on different operating systems the files won't run, because i added some functions which help me read from a file.(**look at the FPATH in my files**)  
 | What I implemented  | Link to the files |
 | ------------- | ------------- |
 | Save a matrix, read one and parse a file  | Content Cell  |
