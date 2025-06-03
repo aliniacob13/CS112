@@ -19,5 +19,5 @@ This course describes a number of different models of computation which were pro
 | Game using a DFA | [View code](./GameDFA/) |
 | Nondeterministic finite automaton (NFA)  | [View code](./NFA/)  |
 | Pushdown automata (PDA) | [View code](./PDA/)  |
-| Turing Machine | Content Cell |
+| Turing Machine | [View code](./TuringMachine/) |
 
