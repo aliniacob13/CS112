@@ -1,0 +1,23 @@
+# Mașina Turing pentru adunare unară cu marcator de final ($)
+# -----------------------------------------------------------
+
+[States]
+q0
+q1
+q_accept
+#
+
+[Symbols]
+1
++
+_
+$        # simbolul care marchează sfarsitul benzii
+#
+
+[Rules]
+# Format:  stare_curentă  simbol_citit  stare_nouă  simbol_scris  directie
+
+q0 1  q0       1  R   # traversează primul operand
+q0 +  q0       1  R   # înlocuiește ‘+’ cu 1 și continuă pe al doilea operand
+q0 _  q1       _  L   # la primul blank după al doilea operand, se face un pas înapoi
+q1 1  q_accept $  N   # scrie ‘$’ peste ultimul 1 și opreste
