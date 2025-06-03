@@ -12,6 +12,7 @@
 6. [Designing a PDA](#designing-a-pda)  
 7. [Example: Recognizing Balanced Strings `0ⁿ1ⁿ`](#example-recognizing-balanced-strings-0ⁿ1ⁿ)  
 8. [Additional Remarks and Tips](#additional-remarks-and-tips)
+9. [My python code](#my-python-code)
 
 ---
 
@@ -297,4 +298,9 @@ Since we have reached `q_accept` with no input left, the machine accepts `000111
    - Understanding PDAs is essential for parsing and compiler design, as most parser generators (LL, LR, etc.) implement variants of deterministic PDAs.
 
 ---
- 
+ ## My python code  
+ I use a PDA to check balanced strings `0ⁿ1ⁿ`. Run the following command:
+```
+python pda.py file.pda
+```
+---
