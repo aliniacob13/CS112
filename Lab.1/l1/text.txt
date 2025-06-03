@@ -1,0 +1,13 @@
+#
+[States]
+q0
+q1
+#
+[Symbols]
+0
+1
+#
+[Rules]
+1 2 3
+4 5 6
+
