@@ -17,7 +17,7 @@ This course describes a number of different models of computation which were pro
 | Save a matrix, read one and parse a file  | [View code](./Lab.1/) |
 | Deterministic finite automaton (DFA) | [View code](./DFA/) |
 | Game using a DFA | [View code](./GameDFA/) |
-| Nondeterministic finite automaton (NFA)  | Content Cell  |
+| Nondeterministic finite automaton (NFA)  | [View code](./NFA/)  |
 | Pushdown automaton (PDA) | Content Cell |
 | Turing Machine | Content Cell |
 
