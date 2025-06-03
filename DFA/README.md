@@ -72,7 +72,7 @@ When constructing a DFA, it is important to remember that the only memory availa
 ```text
         ┌───────────┐       1       ┌──────────┐
    ────▶│  q_even   │──────────────▶│  q_odd   │
-        │(start,   )│◀──────────────│         │
+        │(start,   )│◀──────────────│          │
         │ accepting)│    1          └──────────┘
         └───────────┘                ▲   │
           ▲      │                   │   │
