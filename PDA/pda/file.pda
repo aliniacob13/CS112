@@ -1,0 +1,35 @@
+[States]
+q0
+q1
+qf
+
+[InputSymbols]
+0
+1
+
+[StackSymbols]
+Z
+0
+
+[Start]
+q0
+
+[StackStart]
+Z
+
+[Final]
+qf
+
+[Rules]
+# Faza 1: punem câte un 0 pe stivă pentru fiecare 0 citit
+q0 0 Z q0 0Z
+q0 0 0 q0 00
+
+# Prima dată când vedem 1, trecem în q1
+q0 1 0 q1 $
+
+# Faza 2: pentru fiecare 1 consumăm un 0 din stivă
+q1 1 0 q1 $
+
+# La final, stiva conţine doar Z => λ-tranziţie spre stare finală
+q1 $ Z qf Z
