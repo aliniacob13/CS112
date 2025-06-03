@@ -70,10 +70,10 @@ When constructing a DFA, it is important to remember that the only memory availa
    - **Accepting state:** `q_even` (strings with an even number of `1’s` should be accepted).
 
 ```text
-        ┌───────────┐       1        ┌──────────┐
+        ┌───────────┐       1       ┌──────────┐
    ────▶│  q_even   │──────────────▶│  q_odd   │
-        │(start,   )│◀──────────────│ (       )│
-        │ accepting)│    1         └──────────┘
+        │(start,   )│◀──────────────│         │
+        │ accepting)│    1          └──────────┘
         └───────────┘                ▲   │
           ▲      │                   │   │
           │      └─0 (loop)          │   └─0 (loop)
