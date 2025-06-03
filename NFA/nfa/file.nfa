@@ -1,0 +1,28 @@
+[States]
+q0
+q1
+q2
+
+[Symbols]
+a
+b
+
+[Start]
+q0
+
+[Final]
+q2
+
+[Rules]
+# citim orice număr de 'a' sau 'b' în starea q0
+q0 a q0
+q0 b q0
+
+# când găsim un 'a', trecem în q1
+q0 a q1
+
+# din q1, un 'b' finalizează
+q1 b q2
+
+# plus o λ-tranziţie din q1 înapoi în q0 – exemplu de ε-move
+q1 $ q0
